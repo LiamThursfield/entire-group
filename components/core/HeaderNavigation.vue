@@ -6,15 +6,16 @@
         class="
           container flex flex-row h-16 items-center justify-center mx-auto relative px-3 py-1
           md:items-baseline md:py-5 md:h-auto md:justify-between
-        ">
+        "
+      >
 
         <logo />
 
         <nav
           class="
-        absolute flex flex-col right-0 mr-3
-        md:flex-row md:mr-0 md:relative
-      "
+            absolute flex flex-col right-0 mr-3
+            md:flex-row md:mr-0 md:relative
+          "
         >
 
           <button
@@ -64,10 +65,10 @@
           <!-- Desktop Nav -->
           <ul
             class="
-          header-navigation-desktop
-          flex-row font-semibold hidden items-center text-indigo-900 tracking-wider uppercase
-          md:flex
-        "
+              header-navigation-desktop
+              flex-row font-semibold hidden items-center text-indigo-900 tracking-wider uppercase
+              md:flex
+            "
           >
             <li
               v-for="(nav_link, key) in nav_links"
@@ -94,10 +95,10 @@
       <nav
         v-show="is_mobile_nav_visible"
         class="
-        header-navigation-mobile
-        absolute bg-indigo-900 inset-0 mt-16 w-full
-        md:hidden
-      "
+          header-navigation-mobile
+          absolute bg-indigo-900 inset-0 mt-16 w-full
+          md:hidden
+        "
       >
         <ul
           class="h-full overflow-auto"
