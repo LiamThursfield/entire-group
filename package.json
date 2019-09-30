@@ -1,54 +1,23 @@
 {
   "name": "entire-group",
   "version": "0.1.0",
+  "description": "Entire Group",
+  "author": "Liam Thursfield",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "nodemon --inspect node_modules/.bin/nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "core-js": "^2.6.5",
-    "tailwindcss": "^1.1.2",
-    "vue": "^2.6.10",
-    "vue-router": "^3.1.3"
+    "@nuxtjs/axios": "^5.3.6",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-eslint": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
-    "@vue/eslint-config-airbnb": "^4.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^7.1.0",
-    "vue-cli-plugin-tailwind": "^1.1.0",
-    "vue-template-compiler": "^2.6.10"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/airbnb"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "tailwindcss": {},
-      "vue-cli-plugin-tailwind/purgecss": {},
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "nodemon": "^1.18.9",
+    "nuxt-webfontloader": "^1.1.0",
+    "postcss-import": "^12.0.1"
+  }
 }

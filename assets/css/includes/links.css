@@ -1,0 +1,10 @@
+/*********************
+ * Header Navigation *
+ *********************/
+.header-navigation-desktop .nuxt-link-exact-active {
+  @apply text-orange-600;
+}
+
+.header-navigation-mobile .nuxt-link-exact-active {
+  @apply bg-indigo-1000 font-semibold text-orange-600;
+}
