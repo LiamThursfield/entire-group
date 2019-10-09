@@ -1,19 +1,19 @@
 <template>
   <div class="antialiased">
 
-    <header-navigation />
+    <header-main />
 
     <nuxt />
   </div>
 </template>
 
 <script>
-  import HeaderNavigation from '~/components/core/HeaderNavigation';
+  import HeaderMain from '~/components/core/header/HeaderMain';
 
   export default {
     name: 'LayoutDefault',
     components: {
-      HeaderNavigation,
+      HeaderMain,
     }
   }
 </script>
