@@ -27,7 +27,7 @@
           font-semibold mt-6 text-2xl text-center text-white
           md:text-4xl
         ">
-          Welcome to the site
+          Welcome to the Entire-Group
         </h1>
 
         <p class="
