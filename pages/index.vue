@@ -50,6 +50,9 @@
     components: {
       ContainerCentered,
       JumbotronHeader
+    },
+    head: {
+      title: 'Home | Entire Group'
     }
   }
 </script>
