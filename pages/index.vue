@@ -6,11 +6,14 @@
       background_overlay_rgba="30,30,30,0.75"
     >
       <h1 class="
-        font-black  pb-12 pt-32 px-12 text-4xl text-white
-        md:leading-tight md:text-6xl md:pb-16 md:pt-40 md:px-16
+        font-black px-12 py-16 text-center text-4xl text-white
+        md:leading-tight md:text-6xl md:pb-16 md:pt-40 md:px-16 md:text-left
       ">
         Sample Header
-        <br>
+        <br class="
+          hidden
+          md:visible
+        ">
         Text Here
       </h1>
     </jumbotron>
