@@ -8,3 +8,11 @@ html {
 ::-moz-selection {
   background: theme('colors.orange.200'); /* Gecko Browsers */
 }
+
+.mobile-hide-scroll {
+  @apply overflow-hidden;
+
+  @screen md {
+    @apply overflow-auto;
+  }
+}

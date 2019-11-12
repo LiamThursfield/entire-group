@@ -60,6 +60,7 @@
     data() {
       return {
         is_mobile_nav_visible: false,
+        mobile_nav_scroll_class: 'mobile-hide-scroll',
         navigation_links: {
           about: {
             label: "About",
@@ -83,6 +84,11 @@
     methods: {
       setMobileNavVisible(is_visible) {
         this.is_mobile_nav_visible = is_visible;
+        if (is_visible) {
+          document.body.classList.add(this.mobile_nav_scroll_class);
+        } else {
+          document.body.classList.remove(this.mobile_nav_scroll_class);
+        }
       },
     }
   }

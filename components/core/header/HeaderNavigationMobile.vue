@@ -1,10 +1,10 @@
 <template>
-  <transition name="slide">
+  <transition name="slide-left">
     <nav
       v-show="is_visible"
       class="
           header-navigation-mobile
-          absolute bg-indigo-900 inset-0 mt-16 w-full
+          absolute bg-indigo-900 inset-0 mt-16 z-10 w-full
           md:hidden
         "
     >

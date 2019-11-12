@@ -71,6 +71,7 @@ export default {
     },
     postcss: {
       plugins: {
+        'postcss-nested': {},
         'postcss-import': {},
         'tailwindcss': path.resolve(__dirname, './tailwind.config.js'),
         'autoprefixer': {}
