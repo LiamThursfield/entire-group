@@ -13,7 +13,7 @@
       >
         <li
           v-for="(nav_link, key) in all_links"
-          :key="key"
+          :key="'header-link-mobile-' + key"
           @click="linkSelected"
         >
           <nuxt-link
@@ -24,6 +24,20 @@
             :to="nav_link.url"
           >
             {{ nav_link.label }}
+          </nuxt-link>
+        </li>
+
+        <li
+          @click="linkSelected"
+        >
+          <nuxt-link
+            class="
+                block p-4 text-l text-center text-white
+                hover:bg-indigo-1000
+              "
+            to="/contact"
+          >
+            Contact
           </nuxt-link>
         </li>
       </ul>

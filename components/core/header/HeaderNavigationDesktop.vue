@@ -7,16 +7,32 @@
     "
   >
     <li
-      v-for="(navigation_link, key, index) in navigation_links"
-      :key="key"
+      v-for="(navigation_link, key) in navigation_links"
+      :key="'header-link-desktop-' + key"
       class="
-        mx-3
+        mx-2
+        lg:mx-3
         hover:text-orange-600
       "
-      :class="{ 'mr-0': isLastLink(index) }"
     >
       <nuxt-link :to="navigation_link.url">
         {{ navigation_link.label }}
+      </nuxt-link>
+    </li>
+
+    <li class="
+          ml-2 mr-0
+          lg:ml-3
+        "
+    >
+      <nuxt-link
+        class="
+          bg-orange-600 px-3 py-1 rounded text-white
+          hover:bg-orange-500
+        "
+        to="/contact"
+      >
+        Contact
       </nuxt-link>
     </li>
   </ul>

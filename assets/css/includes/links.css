@@ -1,8 +1,12 @@
 /*********************
  * Header Navigation *
  *********************/
-.header-navigation-desktop .nuxt-link-exact-active {
+.header-navigation-desktop .nuxt-link-exact-active:not(.bg-orange-600) {
   @apply text-orange-600;
+}
+
+.header-navigation-desktop .nuxt-link-exact-active.bg-orange-600 {
+  @apply bg-orange-500;
 }
 
 .header-navigation-mobile .nuxt-link-exact-active {
