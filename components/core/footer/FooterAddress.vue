@@ -7,9 +7,9 @@
     </h1>
 
     <p class="mt-4 text-sm">
-      Units D & E, Great Fenton Business Park, Grove Road,
+      Units D & E, Great Fenton Business Park
       <br>
-      Fenton, Stoke-on-Trent, Staffordshire ST4 4LZ
+      Grove Road, Fenton, Stoke-on-Trent, Staffordshire ST4 4LZ
     </p>
 
     <div class="mt-4 text-md">

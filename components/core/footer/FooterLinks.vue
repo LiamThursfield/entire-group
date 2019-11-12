@@ -53,6 +53,10 @@
           quality: {
             label: 'Quality',
             url: '/quality'
+          },
+          contact: {
+            label: 'Contact',
+            url: '/contact'
           }
         }
       }

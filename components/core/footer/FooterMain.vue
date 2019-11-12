@@ -12,9 +12,9 @@
         md:flex md:flex-row justify-between
       "
     >
-      <footer-address />
+      <footer-address class="md:mr-4"/>
 
-      <footer-links />
+      <footer-links class="md:ml-4" />
     </div>
 
   </footer>
