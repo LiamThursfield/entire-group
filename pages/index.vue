@@ -38,6 +38,67 @@
         </p>
       </container-centered>
     </section>
+
+
+    <!-- Section: TBC -->
+    <section class="
+      bg-white
+    "
+    >
+      <container-centered
+        class="max-w-2xl p-16"
+      >
+        <h1 class="
+          font-semibold text-2xl text-center text-mono-900
+          md:text-4xl
+        ">
+          TBC Header
+        </h1>
+
+        <p class="
+          mt-3 text-center text-mono-900
+        ">
+          Text coming soon
+        </p>
+      </container-centered>
+    </section>
+
+
+    <!-- Section: Services -->
+    <section class="
+      bg-indigo-900
+    "
+    >
+      <container-centered
+        class="max-w-2xl p-16"
+      >
+        <h1 class="
+          font-semibold text-2xl text-center text-white
+          md:text-4xl
+        ">
+          Services Header
+        </h1>
+
+        <p class="
+          mt-3 text-center text-white
+        ">
+          Services paragraph text 1.
+        </p>
+
+        <div class=" mt-3 text-center">
+          <a
+            href="/services"
+            class="
+              border-2 border-white font-semibold inline-block mt-3 mx-auto px-8 py-1 text-white
+              hover:bg-white hover:text-indigo-900
+            "
+          >
+            View All Services
+          </a>
+        </div>
+      </container-centered>
+    </section>
+
   </div>
 </template>
 
