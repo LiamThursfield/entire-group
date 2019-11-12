@@ -86,15 +86,15 @@
         </p>
 
         <div class=" mt-3 text-center">
-          <a
-            href="/services"
+          <nuxt-link
+            to="/services"
             class="
               border-2 border-white font-semibold inline-block mt-3 mx-auto px-8 py-1 text-white
               hover:bg-white hover:text-indigo-900
             "
           >
             View All Services
-          </a>
+          </nuxt-link>
         </div>
       </container-centered>
     </section>
