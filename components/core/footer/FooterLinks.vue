@@ -14,15 +14,15 @@
         :key="'footer-link-' + link"
         class="block mt-3 w-1/2"
       >
-        <a
-          :href="link.url"
+        <nuxt-link
+          :to="link.url"
           class="
             text-lg
             hover:text-orange-500
           "
         >
           {{ link.label }}
-        </a>
+        </nuxt-link>
       </li>
     </ul>
   </div>
@@ -34,20 +34,24 @@
     data() {
       return {
         navigation_links: {
+          home: {
+            label: "Home",
+            url: '/'
+          },
           about: {
-            label: "About",
+            label: 'About',
             url: '/about'
           },
           industries: {
-            label: "Industries",
+            label: 'Industries',
             url: '/industries'
           },
           services: {
-            label: "Services",
+            label: 'Services',
             url: '/services'
           },
           quality: {
-            label: "Quality",
+            label: 'Quality',
             url: '/quality'
           }
         }
