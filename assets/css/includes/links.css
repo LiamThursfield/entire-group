@@ -12,7 +12,3 @@
 .header-navigation-mobile .nuxt-link-exact-active {
   @apply bg-indigo-1000 font-semibold text-orange-600;
 }
-
-.nuxt-link-exact-active {
-  @apply text-blue-600;
-}

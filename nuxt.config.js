@@ -77,7 +77,5 @@ export default {
         'autoprefixer': {}
       }
     },
-
-    extractCSS: true,
   }
 }
