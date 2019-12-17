@@ -7,7 +7,7 @@
 .slide-down-leave-active {
   transition: all .2s ease;
 }
-.slide-downenter, .slide-down-leave-to {
+.slide-down-enter, .slide-down-leave-to {
   transform: translateY(-100%);
 }
 
