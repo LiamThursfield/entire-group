@@ -71,11 +71,13 @@ export default {
     },
     postcss: {
       plugins: {
+        'tailwindcss': path.resolve(__dirname, './tailwind.config.js'),
         'postcss-nested': {},
         'postcss-import': {},
-        'tailwindcss': path.resolve(__dirname, './tailwind.config.js'),
         'autoprefixer': {}
       }
-    }
+    },
+
+    extractCSS: true,
   }
 }
