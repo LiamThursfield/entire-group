@@ -7,6 +7,3 @@
 /** Custom Includes **/
 @import "./includes/links.css";
 @import "./includes/transitions.css";
-body {
-  background: red!important;
-}
