@@ -2,7 +2,7 @@
   <ul
     class="
       header-navigation-desktop
-      flex-row font-semibold hidden items-center text-indigo-900 tracking-wider uppercase
+      flex-row font-semibold hidden items-center text-indigo-900 text-sm tracking-wider uppercase
       md:flex
     "
   >
@@ -11,7 +11,7 @@
       :key="'header-link-desktop-' + key"
       class="
         mx-2
-        lg:mx-3
+        lg:mx-2
         hover:text-orange-600
       "
     >
@@ -20,10 +20,11 @@
       </nuxt-link>
     </li>
 
-    <li class="
-          ml-2 mr-0
-          lg:ml-3
-        "
+    <li
+      class="
+        ml-2 mr-0
+        lg:ml-3
+      "
     >
       <nuxt-link
         class="

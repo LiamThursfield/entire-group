@@ -36,7 +36,6 @@
     <header-navigation-mobile
       :is_visible="is_mobile_nav_visible"
       :navigation_links="navigation_links"
-      :show_home="true"
       @link-selected="setMobileNavVisible(false)"
     />
 
@@ -62,6 +61,10 @@
         is_mobile_nav_visible: false,
         mobile_nav_scroll_class: 'mobile-hide-scroll',
         navigation_links: {
+          home: {
+            label: "Home",
+            url: '/'
+          },
           about: {
             label: "About",
             url: '/about'
