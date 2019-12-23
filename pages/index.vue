@@ -6,14 +6,17 @@
     >
       <jumbotron-header
         background_image="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1250&q=80"
-        background_overlay_rgba="95,15,117,0.20"
+        background_overlay_rgba="47, 2, 60, 0.6"
         class="shadow-lg rounded"
       >
-        Sample Header
-        <br class="hidden md:inline">
-        Text Here
+        <h1>
+          Welcome to the
+          <br class="hidden md:inline">
+          Entire-Group
+        </h1>
       </jumbotron-header>
     </container-centered>
+
 
     <!-- Section: Intro -->
     <section class="
@@ -23,15 +26,8 @@
       <container-centered
         class="max-w-2xl"
       >
-        <h1 class="
-          font-semibold mt-10 text-2xl text-center text-white
-          md:text-4xl
-        ">
-          Welcome to the Entire-Group
-        </h1>
-
         <p class="
-          mt-3 text-center text-white
+          mt-10 text-center text-white
         ">
           The Entire-Group of companies offer our customers a broad and extensive range of services which are second to
           none. For years now, clients have trusted us as their specialist precision engineering supplier.
