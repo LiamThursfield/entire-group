@@ -4,6 +4,7 @@
     method="POST"
     :name="form_name"
     data-netlify="true"
+    :data-netlify-recaptcha="recaptcha_enabled"
   >
     <h1
       class="
@@ -85,6 +86,11 @@
         />
       </label>
 
+      <div
+        v-if="recaptcha_enabled"
+        data-netlify-recaptcha="true"
+      ></div>
+
       <div class="mt-4">
         <button
           type="submit"
@@ -112,6 +118,10 @@
       form_action: {
         default: "/?form_success=true",
         type: String
+      },
+      recaptcha_enabled: {
+        default: false,
+        type: Boolean
       }
     }
   }
