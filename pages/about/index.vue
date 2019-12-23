@@ -186,8 +186,8 @@
 </template>
 
 <script>
-  import CompanyCard from '~/components/cards/CompanyCard'
-  import ContainerCentered from '~/components/containers/ContainerCentered'
+  import CompanyCard from '~/components/cards/CompanyCard';
+  import ContainerCentered from '~/components/containers/ContainerCentered';
   import JumbotronHeader from '~/components/containers/JumbotronHeader';
 
   export default {
