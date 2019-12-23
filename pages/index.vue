@@ -40,54 +40,14 @@
     </section>
 
 
-    <!-- Section: TBC -->
+    <!-- Section: Page Cards -->
     <section
       class="bg-white"
     >
       <container-centered
-        class="max-w-2xl p-16"
+        class="px-3 p-16"
       >
-        <h1 class="
-          font-semibold text-2xl text-center text-mono-900
-          md:text-4xl
-        ">
-          TBC Header
-        </h1>
-
-        <p class="
-          mt-3 text-center text-mono-900
-        ">
-          Text coming soon
-        </p>
-      </container-centered>
-    </section>
-
-
-    <!-- Section: Services -->
-    <section
-      class="bg-orange-600"
-    >
-      <container-centered
-        class="max-w-2xl p-16"
-      >
-        <h1 class="
-          font-semibold text-2xl text-center text-white
-          md:text-4xl
-        ">
-          Services Header
-        </h1>
-
-        <div class=" mt-3 text-center">
-          <nuxt-link
-            to="/services"
-            class="
-              border-2 border-white font-semibold inline-block mx-auto px-8 py-1 rounded text-white
-              hover:bg-white hover:text-indigo-900
-            "
-          >
-            View All Services
-          </nuxt-link>
-        </div>
+        <page-cards />
       </container-centered>
     </section>
 
@@ -112,13 +72,15 @@
   import ContactForm from '~/components/forms/ContactForm';
   import ContainerCentered from '~/components/containers/ContainerCentered'
   import JumbotronHeader from '~/components/containers/JumbotronHeader';
+  import PageCards from '~/components/containers/PageCards';
 
   export default {
     name: 'Home',
     components: {
       ContactForm,
       ContainerCentered,
-      JumbotronHeader
+      JumbotronHeader,
+      PageCards
     },
     head: {
       title: 'Home | Entire Group'
