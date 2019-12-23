@@ -99,51 +99,9 @@
       <container-centered
         class="max-w-2xl p-16"
       >
-        <h1 class="
-          font-semibold text-2xl text-center text-mono-700
-          md:text-4xl
-        ">
-          Contact Us
-        </h1>
-
-        <div>
-          <label class="block mt-3">
-            <span class="text-mono-700">Name</span>
-            <input class="form-input mt-1 block w-full" placeholder="Name">
-          </label>
-
-          <label class="block mt-3">
-            <span class="text-mono-700">Email</span>
-            <input class="form-input mt-1 block w-full" placeholder="Email">
-          </label>
-
-          <label class="block mt-3">
-            <span class="text-mono-700">Phone</span>
-            <input class="form-input mt-1 block w-full" placeholder="Phone">
-          </label>
-
-          <label class="block mt-3">
-            <span class="text-mono-700">Subject</span>
-            <input class="form-input mt-1 block w-full" placeholder="Subject">
-          </label>
-
-          <label class="block mt-3">
-            <span class="text-mono-700">Message</span>
-            <textarea class="form-textarea mt-1 block w-full" rows="3" placeholder="Message"></textarea>
-          </label>
-
-          <div class="mt-4">
-            <div
-              class="
-                bg-orange-600 inline-block font-semibold px-8 py-1 rounded text-white
-                hover:bg-orange-500 cursor-pointer
-              "
-            >
-              Submit
-            </div>
-          </div>
-
-        </div>
+        <contact-form
+          form_name="contact_home"
+        />
       </container-centered>
     </section>
 
@@ -151,12 +109,14 @@
 </template>
 
 <script>
+  import ContactForm from '~/components/forms/ContactForm';
   import ContainerCentered from '~/components/containers/ContainerCentered'
   import JumbotronHeader from '~/components/containers/JumbotronHeader';
 
   export default {
     name: 'Home',
     components: {
+      ContactForm,
       ContainerCentered,
       JumbotronHeader
     },
