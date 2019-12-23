@@ -7,8 +7,9 @@
     :data-netlify-recaptcha="recaptcha_enabled"
   >
     <h1
+      :class="label_colour"
       class="
-        font-semibold text-2xl text-center text-mono-700
+        font-semibold text-2xl text-center
         md:text-4xl
       "
     >
@@ -17,7 +18,10 @@
 
     <div>
       <label class="block mt-3">
-        <span class="font-semibold text-mono-700">
+        <span
+          :class="label_colour"
+          class="font-semibold"
+        >
           Name
           <span class="font-black text-lg text-orange-600">*</span>
         </span>
@@ -32,7 +36,10 @@
 
       <div class="md:flex md:-mx-1">
         <label class="block mt-3 mx-1 w-full">
-          <span class="font-semibold text-mono-700">
+          <span
+            :class="label_colour"
+            class="font-semibold"
+          >
             Email
             <span class="font-black text-lg text-orange-600">*</span>
           </span>
@@ -46,7 +53,10 @@
         </label>
 
         <label class="block mt-3 mx-1 w-full">
-          <span class="font-semibold text-mono-700">
+          <span
+            :class="label_colour"
+            class="font-semibold"
+          >
             Phone
             <span class="font-black text-lg text-orange-600">*</span>
         </span>
@@ -61,7 +71,10 @@
       </div>
 
       <label class="block mt-3">
-        <span class="font-semibold text-mono-700">
+        <span
+          :class="label_colour"
+          class="font-semibold"
+        >
           Subject
           <span class="font-black text-lg text-orange-600">*</span>
         </span>
@@ -75,7 +88,10 @@
       </label>
 
       <label class="block mt-3">
-        <span class="font-semibold text-mono-700">
+        <span
+          :class="label_colour"
+          class="font-semibold"
+        >
           Message
           <span class="font-black text-lg text-orange-600">*</span>
         </span>
@@ -122,9 +138,18 @@
         default: "/?form_success=true",
         type: String
       },
+      label_colour: {
+        default: "text-indigo-900",
+        type: String
+      },
       recaptcha_enabled: {
         default: false,
         type: Boolean
+      }
+    },
+    computed: {
+      labelClass() {
+        return this.label_colour;
       }
     }
   }
