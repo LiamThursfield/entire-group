@@ -22,6 +22,7 @@
         </span>
         <input
           type="text"
+          name="name"
           class="form-input mt-1 block w-full"
           placeholder="Name"
           required
@@ -35,6 +36,7 @@
         </span>
         <input
           type="email"
+          name="email"
           class="form-input mt-1 block w-full"
           placeholder="Email"
           required
@@ -48,6 +50,7 @@
         </span>
         <input
           type="text"
+          name="phone"
           class="form-input mt-1 block w-full"
           placeholder="Phone"
           required
@@ -61,6 +64,7 @@
         </span>
         <input
           type="text"
+          name="subject"
           class="form-input mt-1 block w-full"
           placeholder="Subject"
           required
@@ -73,6 +77,7 @@
           <span class="text-lg text-orange-600">*</span>
         </span>
         <textarea
+          name="message"
           class="form-textarea mt-1 block w-full"
           placeholder="Message"
           rows="3"
