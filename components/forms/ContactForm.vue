@@ -30,33 +30,35 @@
         >
       </label>
 
-      <label class="block mt-3">
-        <span class="font-semibold text-mono-700">
-          Email
-          <span class="font-black text-lg text-orange-600">*</span>
-        </span>
-        <input
-          type="email"
-          name="email"
-          class="form-input mt-1 block w-full"
-          placeholder="Email"
-          required
-        >
-      </label>
+      <div class="md:flex md:-mx-1">
+        <label class="block mt-3 mx-1 w-full">
+          <span class="font-semibold text-mono-700">
+            Email
+            <span class="font-black text-lg text-orange-600">*</span>
+          </span>
+          <input
+            type="email"
+            name="email"
+            class="form-input mt-1 block w-full"
+            placeholder="Email"
+            required
+          >
+        </label>
 
-      <label class="block mt-3">
-        <span class="font-semibold text-mono-700">
-          Phone
-          <span class="font-black text-lg text-orange-600">*</span>
+        <label class="block mt-3 mx-1 w-full">
+          <span class="font-semibold text-mono-700">
+            Phone
+            <span class="font-black text-lg text-orange-600">*</span>
         </span>
-        <input
-          type="text"
-          name="phone"
-          class="form-input mt-1 block w-full"
-          placeholder="Phone"
-          required
-        >
-      </label>
+          <input
+            type="text"
+            name="phone"
+            class="form-input mt-1 block w-full"
+            placeholder="Phone"
+            required
+          >
+        </label>
+      </div>
 
       <label class="block mt-3">
         <span class="font-semibold text-mono-700">
