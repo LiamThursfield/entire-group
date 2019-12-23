@@ -17,9 +17,9 @@
 
     <div>
       <label class="block mt-3">
-        <span class="text-mono-700">
+        <span class="font-semibold text-mono-700">
           Name
-          <span class="text-lg text-orange-600">*</span>
+          <span class="font-black text-lg text-orange-600">*</span>
         </span>
         <input
           type="text"
@@ -31,9 +31,9 @@
       </label>
 
       <label class="block mt-3">
-        <span class="text-mono-700">
+        <span class="font-semibold text-mono-700">
           Email
-          <span class="text-lg text-orange-600">*</span>
+          <span class="font-black text-lg text-orange-600">*</span>
         </span>
         <input
           type="email"
@@ -45,9 +45,9 @@
       </label>
 
       <label class="block mt-3">
-        <span class="text-mono-700">
+        <span class="font-semibold text-mono-700">
           Phone
-          <span class="text-lg text-orange-600">*</span>
+          <span class="font-black text-lg text-orange-600">*</span>
         </span>
         <input
           type="text"
@@ -59,9 +59,9 @@
       </label>
 
       <label class="block mt-3">
-        <span class="text-mono-700">
+        <span class="font-semibold text-mono-700">
           Subject
-          <span class="text-lg text-orange-600">*</span>
+          <span class="font-black text-lg text-orange-600">*</span>
         </span>
         <input
           type="text"
@@ -73,9 +73,9 @@
       </label>
 
       <label class="block mt-3">
-        <span class="text-mono-700">
+        <span class="font-semibold text-mono-700">
           Message
-          <span class="text-lg text-orange-600">*</span>
+          <span class="font-black text-lg text-orange-600">*</span>
         </span>
         <textarea
           name="message"
@@ -92,7 +92,7 @@
         data-netlify-recaptcha="true"
       ></div>
 
-      <div class="mt-4">
+      <div class="mt-6">
         <button
           type="submit"
           class="
