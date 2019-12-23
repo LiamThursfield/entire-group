@@ -13,7 +13,7 @@
         md:text-4xl
       "
     >
-      Contact Us
+      {{ form_title }}
     </h1>
 
     <div>
@@ -130,12 +130,16 @@
   export default {
     name: "ContactForm",
     props: {
+      form_action: {
+        default: "/?form_success=true",
+        type: String
+      },
       form_name: {
         default: "contact",
         type: String
       },
-      form_action: {
-        default: "/?form_success=true",
+      form_title: {
+        default: "Contact Us",
         type: String
       },
       label_colour: {
