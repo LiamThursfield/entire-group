@@ -101,7 +101,6 @@
       >
         <contact-form
           form_name="contact_home"
-          :recaptcha_enabled="true"
         />
       </container-centered>
     </section>

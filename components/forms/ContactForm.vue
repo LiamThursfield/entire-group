@@ -88,6 +88,7 @@
 
       <div
         v-if="recaptcha_enabled"
+        class="mt-4"
         data-netlify-recaptcha="true"
       ></div>
 
