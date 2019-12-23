@@ -77,7 +77,7 @@
       >
         <contact-form
           class="bg-white p-8 rounded-lg shadow-md border border-mono-100 hover:shadow-lg"
-          form_name="contact_home"
+          form_name="contact"
           form_title="Send us a Message"
         />
       </container-centered>
