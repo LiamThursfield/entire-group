@@ -17,14 +17,14 @@
 
     <!-- Section: Intro -->
     <section class="
-      bg-indigo-900 -mt-32 pb-8 pt-32
+      bg-indigo-900 -mt-32 pb-12 pt-32
       md:-mt-48 md:pt-48
     ">
       <container-centered
         class="max-w-2xl"
       >
         <h1 class="
-          font-semibold mt-6 text-2xl text-center text-white
+          font-semibold mt-10 text-2xl text-center text-white
           md:text-4xl
         ">
           Welcome to the Entire-Group
