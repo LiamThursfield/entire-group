@@ -52,7 +52,7 @@
   transition: all .2s ease;
 }
 .slide-right-enter, .slide-right-leave-to {
-  transform: translateX(-100%);
+  transform: translateX(100%);
 }
 
 /*! purgecss end ignore */
