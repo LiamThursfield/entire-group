@@ -9,11 +9,9 @@
         background_overlay_rgba="5, 25, 78, 0.68"
         class="shadow-lg rounded"
       >
-        <h1>
-          Quality
-          <br class="hidden md:inline">
-          Policy
-        </h1>
+        Quality
+        <br class="hidden md:inline">
+        Policy
       </jumbotron-header>
     </container-centered>
 

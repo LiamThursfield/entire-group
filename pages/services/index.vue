@@ -9,11 +9,9 @@
         background_overlay_rgba="5, 25, 78, 0.68"
         class="shadow-lg rounded"
       >
-        <h1>
-          Services
-          <br>
-          we offer
-        </h1>
+        Services
+        <br class="hidden md:inline" /><br>
+        we offer
       </jumbotron-header>
     </container-centered>
 

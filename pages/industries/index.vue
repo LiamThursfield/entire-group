@@ -9,11 +9,9 @@
         background_overlay_rgba="5, 25, 78, 0.68"
         class="shadow-lg rounded"
       >
-        <h1>
-          Industries
-          <br>
-          we service
-        </h1>
+        Industries
+        <br class="hidden md:inline" />
+        we service
       </jumbotron-header>
     </container-centered>
 

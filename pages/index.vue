@@ -9,11 +9,9 @@
         background_overlay_rgba="5, 25, 78, 0.68"
         class="shadow-lg rounded"
       >
-        <h1>
           Welcome to the
-          <br class="hidden md:inline">
+          <br class="hidden md:inline" />
           Entire-Group
-        </h1>
       </jumbotron-header>
     </container-centered>
 
