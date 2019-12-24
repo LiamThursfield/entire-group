@@ -42,7 +42,7 @@
   }
 
   .service-card-overlay {
-    background: rgba(47, 2, 60, 0.8);
+    background: rgba(5, 25, 78, 0.8);
     transition: opacity 450ms ease-in-out;
   }
 </style>

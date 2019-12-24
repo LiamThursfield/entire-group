@@ -6,7 +6,7 @@
     >
       <jumbotron-header
         background_image="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1250&q=80"
-        background_overlay_rgba="47, 2, 60, 0.6"
+        background_overlay_rgba="5, 25, 78, 0.68"
         class="shadow-lg rounded"
       >
         <h1>

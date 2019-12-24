@@ -6,7 +6,7 @@
     >
       <jumbotron-header
         background_image="/image/headers/industries-header.jpg"
-        background_overlay_rgba="47, 2, 60, 0.6"
+        background_overlay_rgba="5, 25, 78, 0.68"
         class="shadow-lg rounded"
       >
         <h1>
