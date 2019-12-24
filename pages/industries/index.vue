@@ -12,7 +12,7 @@
         <h1>
           Industries
           <br>
-          we Service
+          we service
         </h1>
       </jumbotron-header>
     </container-centered>
