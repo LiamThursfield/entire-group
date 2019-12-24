@@ -93,7 +93,7 @@
           font-semibold text-2xl text-center text-white
           md:text-4xl
         ">
-          Need to get in touch?
+          Want to get in touch?
         </h1>
 
         <div class=" mt-6 text-center">
