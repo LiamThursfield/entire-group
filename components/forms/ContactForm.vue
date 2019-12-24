@@ -6,6 +6,9 @@
     data-netlify="true"
     :data-netlify-recaptcha="recaptcha_enabled"
   >
+
+    <input type="hidden" name="form-name" :value="form_name" />
+
     <h1
       :class="label_colour"
       class="
