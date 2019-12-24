@@ -120,7 +120,7 @@
   import JumbotronHeader from '~/components/containers/JumbotronHeader';
 
   export default {
-    name: 'Home',
+    name: 'Quality',
     components: {
       ContactForm,
       ContainerCentered,
