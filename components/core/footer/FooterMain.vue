@@ -1,7 +1,7 @@
 <template>
   <footer
     class="
-      bg-mono-800 px-8 py-16 text-white
+      bg-entire-blue-1000 px-8 py-16 text-white
       md:px-3
     "
   >

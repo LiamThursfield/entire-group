@@ -29,8 +29,8 @@
             v-for="(service, key) in industry.service_list"
             :key="industry.title + '-service-' + key"
             class="
-              bg-orange-200 block font-semibold m-1 px-2 py-1 rounded text-center text-entire-blue-900 text-xs
-              hover:bg-orange-300
+              bg-blue-200 block font-semibold m-1 px-2 py-1 rounded text-center text-entire-blue-900 text-xs
+              hover:bg-entire-blue-900 hover:text-white
             "
           >
             {{ service }}

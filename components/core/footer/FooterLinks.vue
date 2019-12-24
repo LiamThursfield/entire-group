@@ -1,6 +1,6 @@
 <template>
   <div class="
-    mt-8 pt-8 border-t border-mono-700
+    mt-8 pt-8 border-t border-white
     md:border-t-0 md:mt-0 md:pt-0
   "
   >

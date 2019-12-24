@@ -8,7 +8,7 @@
 
     <div
       class="
-        block border-b-2 border-mono-100 justify-center -m-1 pb-6 text-center
+        block border-b-2 border-mono-100 justify-center -m-1 pb-6 text-entire-blue-900 text-center
         md:w-7/12 md:border-b-0 md:border-r-2 md:pr-4 md:pb-0
       "
     >
@@ -20,7 +20,8 @@
           hover:bg-entire-blue-900 hover:text-white
         "
         :class="{
-          'bg-entire-blue-900 text-white': (active_item_key === key)
+          'bg-entire-blue-900': (active_item_key === key),
+          'text-white': (active_item_key === key)
         }"
         @click="selectItem(key)"
       >
@@ -31,7 +32,7 @@
 
     <div
       class="
-        mt-8 overflow-x-hidden
+        mt-8 overflow-x-hidden text-entire-blue-900
         md:w-5/12 md:mt-0 md:px-4
       "
       style="min-height: 190px"
