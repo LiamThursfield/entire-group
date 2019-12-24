@@ -12,7 +12,7 @@
         <h1>
           Services
           <br>
-          we Offer
+          we offer
         </h1>
       </jumbotron-header>
     </container-centered>
@@ -82,6 +82,29 @@
     </section>
 
 
+    <!-- Section: Capacity List -->
+    <section
+      class="bg-white"
+    >
+      <container-centered
+        class="max-w-4xl p-16"
+      >
+        <h1 class="
+          font-semibold text-2xl text-center text-indigo-900
+          md:text-4xl
+        ">
+          Capacity List
+        </h1>
+
+        <div class="mt-12">
+          <service-capacity-list />
+        </div>
+
+
+      </container-centered>
+    </section>
+
+
     <!-- Section: Contact -->
     <section
       class="bg-orange-600"
@@ -118,12 +141,14 @@
   import ContainerCentered from '~/components/containers/ContainerCentered';
   import JumbotronHeader from '~/components/containers/JumbotronHeader';
   import ServiceCard from '~/components/cards/ServiceCard'
+  import ServiceCapacityList from '~/components/containers/ServiceCapacityList'
 
   export default {
-    name: 'Industries',
+    name: 'Services',
     components: {
       ContainerCentered,
       JumbotronHeader,
+      ServiceCapacityList,
       ServiceCard,
     },
     head: {
