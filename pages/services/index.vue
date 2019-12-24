@@ -5,12 +5,12 @@
       class="relative"
     >
       <jumbotron-header
-        background_image="/image/headers/industries-header.jpg"
+        background_image="https://images.unsplash.com/photo-1564182998523-6923112e7d6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&crop=focalpoint&w=1250&h=500&q=80"
         background_overlay_rgba="5, 25, 78, 0.68"
         class="shadow-lg rounded"
       >
         Services
-        <br class="hidden md:inline" /><br>
+        <br class="hidden md:inline" />
         we offer
       </jumbotron-header>
     </container-centered>
