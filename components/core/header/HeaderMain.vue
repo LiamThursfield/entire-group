@@ -87,6 +87,7 @@
     methods: {
       setMobileNavVisible(is_visible) {
         this.is_mobile_nav_visible = is_visible;
+        console.log('is visible: ', is_visible, this.is_mobile_nav_visible)
         if (is_visible) {
           document.body.classList.add(this.mobile_nav_scroll_class);
         } else {

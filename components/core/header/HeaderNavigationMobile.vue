@@ -82,6 +82,14 @@
     methods: {
       linkSelected() {
         this.$emit('link-selected', true);
+      },
+      isVisibleChanged() {
+        console.log('mobile: ', this.is_visible);
+      }
+    },
+    watch: {
+      is_visible: {
+        handler: 'isVisibleChanged'
       }
     }
   }
