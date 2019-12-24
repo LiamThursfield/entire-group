@@ -20,7 +20,7 @@
 
     <!-- Section: Intro -->
     <section class="
-      bg-indigo-900 -mt-32 pb-12 pt-32
+      bg-entire-blue-900 -mt-32 pb-12 pt-32
       md:-mt-48 md:pt-48
     ">
       <container-centered

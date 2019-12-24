@@ -19,7 +19,7 @@
 
     <!-- Section: Intro -->
     <section class="
-      bg-indigo-900 -mt-32 pb-12 pt-32
+      bg-entire-blue-900 -mt-32 pb-12 pt-32
       md:-mt-48 md:pt-48
     ">
       <container-centered
@@ -90,7 +90,7 @@
         class="max-w-4xl p-16"
       >
         <h1 class="
-          font-semibold text-2xl text-center text-indigo-900
+          font-semibold text-2xl text-center text-entire-blue-900
           md:text-4xl
         ">
           Capacity List
@@ -125,7 +125,7 @@
             class="
               border-2 border-white font-semibold inline-block mx-auto px-16 py-1 rounded text-white text-lg
               md:text-xl
-              hover:bg-white hover:text-indigo-900
+              hover:bg-white hover:text-entire-blue-900
             "
           >
             Contact Us

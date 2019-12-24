@@ -4,7 +4,7 @@
       v-show="is_visible"
       class="
           header-navigation-mobile
-          absolute bg-indigo-900 inset-0 mt-16 z-10 w-full
+          absolute bg-entire-blue-900 inset-0 mt-16 z-10 w-full
           md:hidden
         "
     >
@@ -19,7 +19,7 @@
           <nuxt-link
             class="
                 block p-4 text-l text-center text-white
-                hover:bg-indigo-1000
+                hover:bg-entire-blue-1000
               "
             :to="nav_link.url"
           >
@@ -33,7 +33,7 @@
           <nuxt-link
             class="
                 block p-4 text-l text-center text-white
-                hover:bg-indigo-1000
+                hover:bg-entire-blue-1000
               "
             to="/contact"
           >

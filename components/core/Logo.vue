@@ -3,7 +3,7 @@
     tag="h1"
     to="/"
     class="
-      cursor-pointer font-semibold select-none text-3xl text-center text-indigo-900
+      cursor-pointer font-semibold select-none text-3xl text-center text-entire-blue-900
       sm:text-4xl
     "
   >

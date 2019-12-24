@@ -16,11 +16,11 @@
         v-for="(item, key) in items"
         :key="'tab-' + key"
         class="
-          border-2 border-indigo-900 cursor-pointer font-semibold inline-block text-sm rounded-full px-3 py-1 m-1
-          hover:bg-indigo-900 hover:text-white
+          border-2 border-entire-blue-900 cursor-pointer font-semibold inline-block text-sm rounded-full px-3 py-1 m-1
+          hover:bg-entire-blue-900 hover:text-white
         "
         :class="{
-          'bg-indigo-900 text-white': (active_item_key === key)
+          'bg-entire-blue-900 text-white': (active_item_key === key)
         }"
         @click="selectItem(key)"
       >

@@ -2,7 +2,7 @@
   <ul
     class="
       header-navigation-desktop
-      flex-row font-semibold hidden items-center text-indigo-900 text-sm tracking-wider uppercase
+      flex-row font-semibold hidden items-center text-entire-blue-900 text-sm tracking-wider uppercase
       md:flex
     "
   >

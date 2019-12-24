@@ -8,7 +8,7 @@
   >
     <div
       class="
-        bg-white border-t-4 border-indigo-900 h-full p-8 rounded-lg shadow-lg text-center
+        bg-white border-t-4 border-entire-blue-900 h-full p-8 rounded-lg shadow-lg text-center
         md:border-t-8 md:mx-3
       "
     >

@@ -143,7 +143,7 @@
         type: String
       },
       label_colour: {
-        default: "text-indigo-900",
+        default: "text-entire-blue-900",
         type: String
       },
       recaptcha_enabled: {

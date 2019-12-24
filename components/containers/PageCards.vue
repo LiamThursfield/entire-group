@@ -17,7 +17,7 @@
         <path class="fill-current text-white" d="M7 13h3v2H7v-2zm5 0h3v2h-3v-2zm5 0h3v2h-3v-2zM7 17h3v2H7v-2zm5 0h3v2h-3v-2zm5 0h3v2h-3v-2z"></path>
       </svg>
 
-      <h2 class="font-semibold mt-1 text-indigo-900 text-2xl tracking-wider">
+      <h2 class="font-semibold mt-1 text-entire-blue-900 text-2xl tracking-wider">
         Industries
       </h2>
 
@@ -28,8 +28,8 @@
       <nuxt-link
         to="/industries"
         class="
-          border-2 border-indigo-900 font-semibold inline-block mx-auto mt-6 px-8 py-1 rounded text-indigo-900
-          hover:bg-indigo-900 hover:text-white
+          border-2 border-entire-blue-900 font-semibold inline-block mx-auto mt-6 px-8 py-1 rounded text-entire-blue-900
+          hover:bg-entire-blue-900 hover:text-white
         "
       >
         Learn More
@@ -47,7 +47,7 @@
         <circle cx="12" cy="12" r="2" class="fill-current text-orange-900"></circle>
       </svg>
 
-      <h2 class="font-semibold mt-1 text-indigo-900 text-2xl tracking-wider">
+      <h2 class="font-semibold mt-1 text-entire-blue-900 text-2xl tracking-wider">
         Services
       </h2>
 
@@ -58,8 +58,8 @@
       <nuxt-link
         to="/services"
         class="
-          border-2 border-indigo-900 font-semibold inline-block mx-auto mt-6 px-8 py-1 rounded text-indigo-900
-          hover:bg-indigo-900 hover:text-white
+          border-2 border-entire-blue-900 font-semibold inline-block mx-auto mt-6 px-8 py-1 rounded text-entire-blue-900
+          hover:bg-entire-blue-900 hover:text-white
         "
       >
         Learn More
@@ -77,7 +77,7 @@
         <path class="fill-current text-orange-900" d="M11.65 18.23a4 4 0 1 1 4.7 0l2.5 3.44-2.23-.18-1.48 1.68-.59-4.2a4.04 4.04 0 0 1-1.1 0l-.6 4.2-1.47-1.68-2.23.18 2.5-3.44zM14 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
       </svg>
 
-      <h2 class="font-semibold mt-1 text-indigo-900 text-2xl tracking-wider">
+      <h2 class="font-semibold mt-1 text-entire-blue-900 text-2xl tracking-wider">
         Quality
       </h2>
 
@@ -88,8 +88,8 @@
       <nuxt-link
         to="/quality"
         class="
-          border-2 border-indigo-900 font-semibold inline-block mx-auto mt-6 px-8 py-1 rounded text-indigo-900
-          hover:bg-indigo-900 hover:text-white
+          border-2 border-entire-blue-900 font-semibold inline-block mx-auto mt-6 px-8 py-1 rounded text-entire-blue-900
+          hover:bg-entire-blue-900 hover:text-white
         "
       >
         Learn More

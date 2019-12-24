@@ -20,7 +20,7 @@
       >
 
       <div class="px-2 py-6">
-        <h2 class="font-semibold text-center text-indigo-900 text-lg">
+        <h2 class="font-semibold text-center text-entire-blue-900 text-lg">
           {{ industry.title }}
         </h2>
 
@@ -29,7 +29,7 @@
             v-for="(service, key) in industry.service_list"
             :key="industry.title + '-service-' + key"
             class="
-              bg-orange-200 block font-semibold m-1 px-2 py-1 rounded text-center text-indigo-900 text-xs
+              bg-orange-200 block font-semibold m-1 px-2 py-1 rounded text-center text-entire-blue-900 text-xs
               hover:bg-orange-300
             "
           >

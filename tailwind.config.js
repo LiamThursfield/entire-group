@@ -19,6 +19,10 @@ module.exports = {
           ...defaultTheme.colors.indigo,
           1000: '#282657',
         },
+        'entire-blue': {
+          900:  '#1A2975',
+          1000: '#111C4E'
+        },
         mono: {
             100: '#E5E5E5',
             200: '#CCCCCC',

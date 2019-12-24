@@ -1,7 +1,7 @@
 <template>
   <button
     class="
-      cursor-pointer fill-current flex justify-center text-indigo-900
+      cursor-pointer fill-current flex justify-center text-entire-blue-900
       focus:outline-none focus:text-orange-600
       hover:text-orange-600
       md:hidden

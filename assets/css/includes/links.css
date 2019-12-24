@@ -12,7 +12,7 @@
 }
 
 .header-navigation-mobile .nuxt-link-exact-active {
-  @apply bg-indigo-1000 font-semibold text-orange-600;
+  @apply bg-entire-blue-1000 font-semibold text-orange-600;
 }
 
 /*! purgecss end ignore */
