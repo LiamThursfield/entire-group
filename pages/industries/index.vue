@@ -60,47 +60,11 @@
           "
         >
 
-          <article
+          <industry-card
             v-for="industry in industries"
             :key="industry.title"
-            class="
-              mt-6 max-w-sm w-full
-              sm:w-1/2
-              md:w-1/3
-              xl:w-1/4
-            "
-          >
-            <div
-              class="
-                bg-white h-full  overflow-hidden rounded-lg shadow-lg
-                sm:mx-2
-              "
-            >
-              <img
-                :src="industry.image"
-                class="w-full"
-                :alt="industry.title + ' Image'"
-              >
-
-              <div class="px-2 py-6">
-                <h2 class="font-semibold text-center text-indigo-900 text-lg">
-                  {{ industry.title }}
-                </h2>
-                <ul class="flex flex-wrap justify-center mt-4 -mx-1">
-                  <li
-                    v-for="(service, key) in industry.service_list"
-                    :key="industry.title + '-service-' + key"
-                    class="
-                      bg-orange-200 block font-semibold m-1 px-2 py-1 rounded text-center text-indigo-900 text-xs
-                      hover:bg-orange-300
-                    "
-                  >
-                    {{ service }}
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </article>
+            :industry="industry"
+          />
 
         </div>
 
@@ -141,15 +105,15 @@
 </template>
 
 <script>
-  import CompanyCard from '~/components/cards/CompanyCard';
   import ContainerCentered from '~/components/containers/ContainerCentered';
+  import IndustryCard from '~/components/cards/IndustryCard';
   import JumbotronHeader from '~/components/containers/JumbotronHeader';
 
   export default {
     name: 'Industries',
     components: {
-      CompanyCard,
       ContainerCentered,
+      IndustryCard,
       JumbotronHeader,
     },
     head: {
