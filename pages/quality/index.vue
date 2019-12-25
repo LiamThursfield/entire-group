@@ -50,11 +50,12 @@
         class="p-12 text-center"
       >
 
-        <div class="-mb-8 -mx-6">
+        <div class="-mb-8 sm:-mx-6" style="max-width: 100%">
           <img
             src="/image/qualifications/db-schenker.png"
             class="
-              h-14 inline-block mb-8 mx-6
+              h-8 inline-block mb-8 mx-6
+              md:h-12
             "
             alt="DB Schenker Logo"
           >
@@ -62,7 +63,8 @@
           <img
             src="/image/qualifications/risqs.png"
             class="
-              h-14 inline-block mb-8 mx-6
+              h-8 inline-block mb-8 mx-6
+              md:h-12
             "
             alt="RISQS Logo"
           >
@@ -70,7 +72,8 @@
           <img
             src="/image/qualifications/bsi.png"
             class="
-              h-14 inline-block mb-8 mx-6
+              h-8 inline-block mb-8 mx-6
+              md:h-12
             "
             alt="BSI Logo"
           >
